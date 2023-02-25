@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		360F392C1DD2068E002BED59 /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360F392B1DD2068E002BED59 /* Resolver.framework */; };
-		360F392D1DD206A3002BED59 /* Resolver.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 360F392B1DD2068E002BED59 /* Resolver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3611765A1DFFE98700A1A058 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361176591DFFE98700A1A058 /* Buffer.swift */; };
 		3611765B1DFFE98700A1A058 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361176591DFFE98700A1A058 /* Buffer.swift */; };
 		3611765D1E000A5400A1A058 /* ProtocolObfuscater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3611765C1E000A5400A1A058 /* ProtocolObfuscater.swift */; };
@@ -21,20 +19,8 @@
 		3621B94A1DFA92480003ABB3 /* GlobalIntializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3621B9481DFA92480003ABB3 /* GlobalIntializer.swift */; };
 		362347181D7D44E700A047DE /* NEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36463A301CDCD5EB0040579C /* NEKit.framework */; };
 		362347271D7D458E00A047DE /* NEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C48D4D1CF88DED0071804F /* NEKit.framework */; };
-		362347391D7E6F3D00A047DE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362347371D7E6F3D00A047DE /* Nimble.framework */; };
-		3623473A1D7E6F3D00A047DE /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362347381D7E6F3D00A047DE /* Quick.framework */; };
 		362347401D7E706300A047DE /* IPRangeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623473F1D7E706300A047DE /* IPRangeSpec.swift */; };
 		362347411D7E706300A047DE /* IPRangeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623473F1D7E706300A047DE /* IPRangeSpec.swift */; };
-		362347881D7EA65400A047DE /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 362347371D7E6F3D00A047DE /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		362347891D7EA65400A047DE /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 362347381D7E6F3D00A047DE /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3623478A1D7EA65400A047DE /* CocoaAsyncSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36C4B7DB1D6C517600F2BDCD /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3623478B1D7EA65400A047DE /* CocoaLumberjack.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36C4B7DC1D6C517600F2BDCD /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3623478C1D7EA65400A047DE /* CocoaLumberjackSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36C4B7DD1D6C517600F2BDCD /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3623478E1D7EA65400A047DE /* lwip.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36C4B7DF1D6C517600F2BDCD /* lwip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3623478F1D7EA65400A047DE /* MMDB.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36C4B7E01D6C517600F2BDCD /* MMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		362347901D7EA65400A047DE /* Sodium.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36C4B7E11D6C517600F2BDCD /* Sodium.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		362347911D7EA65400A047DE /* tun2socks.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36C4B7E21D6C517600F2BDCD /* tun2socks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		362347921D7EA65400A047DE /* Yaml.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36C4B7E31D6C517600F2BDCD /* Yaml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		362347A01D824E4300A047DE /* SOCKS5Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623479F1D824E4300A047DE /* SOCKS5Adapter.swift */; };
 		362347A11D824E4300A047DE /* SOCKS5Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623479F1D824E4300A047DE /* SOCKS5Adapter.swift */; };
 		362347A31D82525200A047DE /* SOCKS5AdapterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362347A21D82525200A047DE /* SOCKS5AdapterFactory.swift */; };
@@ -201,30 +187,6 @@
 		36C48DAA1CF9D6390071804F /* DNSMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C48DA81CF9D6390071804F /* DNSMessage.swift */; };
 		36C48DAC1CF9D6580071804F /* DNSEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C48DAB1CF9D6580071804F /* DNSEnums.swift */; };
 		36C48DAD1CF9D6580071804F /* DNSEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C48DAB1CF9D6580071804F /* DNSEnums.swift */; };
-		36C4B7E41D6C517600F2BDCD /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7DB1D6C517600F2BDCD /* CocoaAsyncSocket.framework */; };
-		36C4B7E51D6C517600F2BDCD /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7DC1D6C517600F2BDCD /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		36C4B7E61D6C517600F2BDCD /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7DD1D6C517600F2BDCD /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		36C4B7E81D6C517600F2BDCD /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7DF1D6C517600F2BDCD /* lwip.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		36C4B7E91D6C517600F2BDCD /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7E01D6C517600F2BDCD /* MMDB.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		36C4B7EA1D6C517600F2BDCD /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7E11D6C517600F2BDCD /* Sodium.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		36C4B7EB1D6C517600F2BDCD /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7E21D6C517600F2BDCD /* tun2socks.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		36C4B7EC1D6C517600F2BDCD /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7E31D6C517600F2BDCD /* Yaml.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		36C4B8111D6C51A400F2BDCD /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7DB1D6C517600F2BDCD /* CocoaAsyncSocket.framework */; };
-		36C4B8121D6C51A400F2BDCD /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7DB1D6C517600F2BDCD /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		36C4B8131D6C51A400F2BDCD /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7DC1D6C517600F2BDCD /* CocoaLumberjack.framework */; };
-		36C4B8141D6C51A400F2BDCD /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7DC1D6C517600F2BDCD /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		36C4B8151D6C51A400F2BDCD /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7DD1D6C517600F2BDCD /* CocoaLumberjackSwift.framework */; };
-		36C4B8161D6C51A400F2BDCD /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7DD1D6C517600F2BDCD /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		36C4B8191D6C51A400F2BDCD /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7DF1D6C517600F2BDCD /* lwip.framework */; };
-		36C4B81A1D6C51A400F2BDCD /* lwip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7DF1D6C517600F2BDCD /* lwip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		36C4B81B1D6C51A400F2BDCD /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7E01D6C517600F2BDCD /* MMDB.framework */; };
-		36C4B81C1D6C51A400F2BDCD /* MMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7E01D6C517600F2BDCD /* MMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		36C4B81D1D6C51A400F2BDCD /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7E11D6C517600F2BDCD /* Sodium.framework */; };
-		36C4B81E1D6C51A400F2BDCD /* Sodium.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7E11D6C517600F2BDCD /* Sodium.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		36C4B81F1D6C51A400F2BDCD /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7E21D6C517600F2BDCD /* tun2socks.framework */; };
-		36C4B8201D6C51A400F2BDCD /* tun2socks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7E21D6C517600F2BDCD /* tun2socks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		36C4B8211D6C51A400F2BDCD /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7E31D6C517600F2BDCD /* Yaml.framework */; };
-		36C4B8221D6C51A400F2BDCD /* Yaml.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4B7E31D6C517600F2BDCD /* Yaml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		36C63DC81CFD254100A00CA2 /* BinaryDataScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C63DC71CFD254100A00CA2 /* BinaryDataScanner.swift */; };
 		36C63DC91CFD254100A00CA2 /* BinaryDataScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C63DC71CFD254100A00CA2 /* BinaryDataScanner.swift */; };
 		36C63DCB1CFD602500A00CA2 /* DNSSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C63DCA1CFD602500A00CA2 /* DNSSession.swift */; };
@@ -264,19 +226,24 @@
 		36E44A021CF2ED4800185DBF /* TUNInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E44A011CF2ED4800185DBF /* TUNInterface.swift */; };
 		36E9CCFF1DD6EEF5003597CE /* QueueFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E9CCFE1DD6EEF5003597CE /* QueueFactory.swift */; };
 		36E9CD001DD6EEF5003597CE /* QueueFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E9CCFE1DD6EEF5003597CE /* QueueFactory.swift */; };
-		36E9CD041DD6F0DE003597CE /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360F392B1DD2068E002BED59 /* Resolver.framework */; };
-		36E9CD051DD6F0DE003597CE /* Resolver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 360F392B1DD2068E002BED59 /* Resolver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6484DBDE800363CD08E00804 /* Pods_NEKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6717D5035685913A1F645A6A /* Pods_NEKitDemo.framework */; };
-		8532D981273ADE07564156ED /* Pods_NEKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6598CE1561CB4E3D5E9DD1 /* Pods_NEKit_iOS.framework */; };
-		B9D7641929AA1EB80058EB47 /* lwip.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D7641129AA1EB70058EB47 /* lwip.xcframework */; };
-		B9D7641A29AA1EB80058EB47 /* Sodium.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D7641229AA1EB70058EB47 /* Sodium.xcframework */; };
-		B9D7641B29AA1EB80058EB47 /* Resolver.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D7641329AA1EB70058EB47 /* Resolver.xcframework */; };
-		B9D7641C29AA1EB80058EB47 /* CocoaLumberjack.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D7641429AA1EB70058EB47 /* CocoaLumberjack.xcframework */; };
-		B9D7641D29AA1EB80058EB47 /* Yaml.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D7641529AA1EB80058EB47 /* Yaml.xcframework */; };
-		B9D7641E29AA1EB80058EB47 /* CocoaLumberjackSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D7641629AA1EB80058EB47 /* CocoaLumberjackSwift.xcframework */; };
-		B9D7641F29AA1EB80058EB47 /* tun2socks.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D7641729AA1EB80058EB47 /* tun2socks.xcframework */; };
-		B9D7642029AA1EB80058EB47 /* CocoaAsyncSocket.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D7641829AA1EB80058EB47 /* CocoaAsyncSocket.xcframework */; };
-		C2F4DAB7DA6F43E245F515F6 /* Pods_NEKit_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AB221DBD8B523347F2E39D /* Pods_NEKit_macOS.framework */; };
+		B90BEA6C29AA4B4500E0FF18 /* lwip.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BEA6329AA4B4400E0FF18 /* lwip.xcframework */; };
+		B90BEA6D29AA4B4500E0FF18 /* lwip.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B90BEA6329AA4B4400E0FF18 /* lwip.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B90BEA6E29AA4B4500E0FF18 /* CocoaLumberjackSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BEA6429AA4B4400E0FF18 /* CocoaLumberjackSwift.xcframework */; };
+		B90BEA6F29AA4B4500E0FF18 /* CocoaLumberjackSwift.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B90BEA6429AA4B4400E0FF18 /* CocoaLumberjackSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B90BEA7029AA4B4500E0FF18 /* tun2socks.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BEA6529AA4B4400E0FF18 /* tun2socks.xcframework */; };
+		B90BEA7129AA4B4500E0FF18 /* tun2socks.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B90BEA6529AA4B4400E0FF18 /* tun2socks.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B90BEA7229AA4B4500E0FF18 /* CocoaLumberjack.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BEA6629AA4B4500E0FF18 /* CocoaLumberjack.xcframework */; };
+		B90BEA7329AA4B4500E0FF18 /* CocoaLumberjack.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B90BEA6629AA4B4500E0FF18 /* CocoaLumberjack.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B90BEA7429AA4B4600E0FF18 /* CocoaAsyncSocket.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BEA6729AA4B4500E0FF18 /* CocoaAsyncSocket.xcframework */; };
+		B90BEA7529AA4B4600E0FF18 /* CocoaAsyncSocket.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B90BEA6729AA4B4500E0FF18 /* CocoaAsyncSocket.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B90BEA7629AA4B4600E0FF18 /* Yaml.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BEA6829AA4B4500E0FF18 /* Yaml.xcframework */; };
+		B90BEA7729AA4B4600E0FF18 /* Yaml.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B90BEA6829AA4B4500E0FF18 /* Yaml.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B90BEA7829AA4B4600E0FF18 /* Resolver.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BEA6929AA4B4500E0FF18 /* Resolver.xcframework */; };
+		B90BEA7929AA4B4600E0FF18 /* Resolver.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B90BEA6929AA4B4500E0FF18 /* Resolver.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B90BEA7A29AA4B4600E0FF18 /* MMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BEA6A29AA4B4500E0FF18 /* MMDB.xcframework */; };
+		B90BEA7B29AA4B4600E0FF18 /* MMDB.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B90BEA6A29AA4B4500E0FF18 /* MMDB.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B90BEA7C29AA4B4600E0FF18 /* Sodium.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90BEA6B29AA4B4500E0FF18 /* Sodium.xcframework */; };
+		B90BEA7D29AA4B4700E0FF18 /* Sodium.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B90BEA6B29AA4B4500E0FF18 /* Sodium.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -310,17 +277,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				360F392D1DD206A3002BED59 /* Resolver.framework in CopyFiles */,
-				362347881D7EA65400A047DE /* Nimble.framework in CopyFiles */,
-				362347891D7EA65400A047DE /* Quick.framework in CopyFiles */,
-				3623478A1D7EA65400A047DE /* CocoaAsyncSocket.framework in CopyFiles */,
-				3623478B1D7EA65400A047DE /* CocoaLumberjack.framework in CopyFiles */,
-				3623478C1D7EA65400A047DE /* CocoaLumberjackSwift.framework in CopyFiles */,
-				3623478E1D7EA65400A047DE /* lwip.framework in CopyFiles */,
-				3623478F1D7EA65400A047DE /* MMDB.framework in CopyFiles */,
-				362347901D7EA65400A047DE /* Sodium.framework in CopyFiles */,
-				362347911D7EA65400A047DE /* tun2socks.framework in CopyFiles */,
-				362347921D7EA65400A047DE /* Yaml.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +304,15 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B90BEA7D29AA4B4700E0FF18 /* Sodium.xcframework in CopyFiles */,
+				B90BEA7729AA4B4600E0FF18 /* Yaml.xcframework in CopyFiles */,
+				B90BEA6F29AA4B4500E0FF18 /* CocoaLumberjackSwift.xcframework in CopyFiles */,
+				B90BEA7929AA4B4600E0FF18 /* Resolver.xcframework in CopyFiles */,
+				B90BEA6D29AA4B4500E0FF18 /* lwip.xcframework in CopyFiles */,
+				B90BEA7129AA4B4500E0FF18 /* tun2socks.xcframework in CopyFiles */,
+				B90BEA7529AA4B4600E0FF18 /* CocoaAsyncSocket.xcframework in CopyFiles */,
+				B90BEA7329AA4B4500E0FF18 /* CocoaLumberjack.xcframework in CopyFiles */,
+				B90BEA7B29AA4B4600E0FF18 /* MMDB.xcframework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,16 +322,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				36C4B81A1D6C51A400F2BDCD /* lwip.framework in Embed Frameworks */,
-				36C4B8161D6C51A400F2BDCD /* CocoaLumberjackSwift.framework in Embed Frameworks */,
-				36C4B8121D6C51A400F2BDCD /* CocoaAsyncSocket.framework in Embed Frameworks */,
-				36C4B8141D6C51A400F2BDCD /* CocoaLumberjack.framework in Embed Frameworks */,
-				36C4B8201D6C51A400F2BDCD /* tun2socks.framework in Embed Frameworks */,
-				36C4B8221D6C51A400F2BDCD /* Yaml.framework in Embed Frameworks */,
-				36C4B81E1D6C51A400F2BDCD /* Sodium.framework in Embed Frameworks */,
 				36A719B81D5EEB5900DC35F5 /* NEKit.framework in Embed Frameworks */,
-				36C4B81C1D6C51A400F2BDCD /* MMDB.framework in Embed Frameworks */,
-				36E9CD051DD6F0DE003597CE /* Resolver.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,9 +330,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2089D7E08327F5649283AFAC /* Pods-NEKit-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEKit-iOS.debug.xcconfig"; path = "Target Support Files/Pods-NEKit-iOS/Pods-NEKit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		3154A2B64CC42E58A90A5538 /* Pods-NEKit-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEKit-iOS.release.xcconfig"; path = "Target Support Files/Pods-NEKit-iOS/Pods-NEKit-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		360F392B1DD2068E002BED59 /* Resolver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Resolver.framework; path = Carthage/Build/Mac/Resolver.framework; sourceTree = SOURCE_ROOT; };
 		361176591DFFE98700A1A058 /* Buffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buffer.swift; sourceTree = "<group>"; };
 		3611765C1E000A5400A1A058 /* ProtocolObfuscater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolObfuscater.swift; sourceTree = "<group>"; };
 		3611765F1E00305500A1A058 /* StreamObfuscater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = StreamObfuscater.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -393,8 +346,6 @@
 		362347301D7D475100A047DE /* bootstrap-if-needed */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "bootstrap-if-needed"; sourceTree = "<group>"; };
 		362347311D7D475100A047DE /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
 		362347321D7D475100A047DE /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		362347371D7E6F3D00A047DE /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = SOURCE_ROOT; };
-		362347381D7E6F3D00A047DE /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = SOURCE_ROOT; };
 		3623473F1D7E706300A047DE /* IPRangeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPRangeSpec.swift; sourceTree = "<group>"; };
 		3623479F1D824E4300A047DE /* SOCKS5Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOCKS5Adapter.swift; sourceTree = "<group>"; };
 		362347A21D82525200A047DE /* SOCKS5AdapterFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOCKS5AdapterFactory.swift; sourceTree = "<group>"; };
@@ -494,14 +445,6 @@
 		36C48D511CF88DED0071804F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36C48DA81CF9D6390071804F /* DNSMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSMessage.swift; sourceTree = "<group>"; };
 		36C48DAB1CF9D6580071804F /* DNSEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSEnums.swift; sourceTree = "<group>"; };
-		36C4B7DB1D6C517600F2BDCD /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = SOURCE_ROOT; };
-		36C4B7DC1D6C517600F2BDCD /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/Mac/CocoaLumberjack.framework; sourceTree = SOURCE_ROOT; };
-		36C4B7DD1D6C517600F2BDCD /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = Carthage/Build/Mac/CocoaLumberjackSwift.framework; sourceTree = SOURCE_ROOT; };
-		36C4B7DF1D6C517600F2BDCD /* lwip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lwip.framework; path = Carthage/Build/Mac/lwip.framework; sourceTree = SOURCE_ROOT; };
-		36C4B7E01D6C517600F2BDCD /* MMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMDB.framework; path = Carthage/Build/Mac/MMDB.framework; sourceTree = SOURCE_ROOT; };
-		36C4B7E11D6C517600F2BDCD /* Sodium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sodium.framework; path = Carthage/Build/Mac/Sodium.framework; sourceTree = SOURCE_ROOT; };
-		36C4B7E21D6C517600F2BDCD /* tun2socks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tun2socks.framework; path = Carthage/Build/Mac/tun2socks.framework; sourceTree = SOURCE_ROOT; };
-		36C4B7E31D6C517600F2BDCD /* Yaml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yaml.framework; path = Carthage/Build/Mac/Yaml.framework; sourceTree = SOURCE_ROOT; };
 		36C63DC71CFD254100A00CA2 /* BinaryDataScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryDataScanner.swift; sourceTree = "<group>"; };
 		36C63DCA1CFD602500A00CA2 /* DNSSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DNSSession.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		36C63DCD1CFD70C100A00CA2 /* DNSServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DNSServer.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -523,21 +466,15 @@
 		36DB3CEE1E0D610500D907DB /* IPAddressSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPAddressSpec.swift; sourceTree = "<group>"; };
 		36E44A011CF2ED4800185DBF /* TUNInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUNInterface.swift; sourceTree = "<group>"; };
 		36E9CCFE1DD6EEF5003597CE /* QueueFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QueueFactory.swift; path = Tunnel/QueueFactory.swift; sourceTree = "<group>"; };
-		3D82B9CC83E46BEB4348BEDF /* Pods-NEKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEKitDemo.release.xcconfig"; path = "Target Support Files/Pods-NEKitDemo/Pods-NEKitDemo.release.xcconfig"; sourceTree = "<group>"; };
-		6717D5035685913A1F645A6A /* Pods_NEKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B0EE0EB4B20BBC144772199 /* Pods-NEKit-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEKit-macOS.release.xcconfig"; path = "Target Support Files/Pods-NEKit-macOS/Pods-NEKit-macOS.release.xcconfig"; sourceTree = "<group>"; };
-		94BA310000883347A853024A /* Pods-NEKit-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEKit-macOS.debug.xcconfig"; path = "Target Support Files/Pods-NEKit-macOS/Pods-NEKit-macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		B9D7641129AA1EB70058EB47 /* lwip.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = lwip.xcframework; path = Carthage/Build/lwip.xcframework; sourceTree = SOURCE_ROOT; };
-		B9D7641229AA1EB70058EB47 /* Sodium.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Sodium.xcframework; path = Carthage/Build/Sodium.xcframework; sourceTree = SOURCE_ROOT; };
-		B9D7641329AA1EB70058EB47 /* Resolver.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Resolver.xcframework; path = Carthage/Build/Resolver.xcframework; sourceTree = SOURCE_ROOT; };
-		B9D7641429AA1EB70058EB47 /* CocoaLumberjack.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CocoaLumberjack.xcframework; path = Carthage/Build/CocoaLumberjack.xcframework; sourceTree = SOURCE_ROOT; };
-		B9D7641529AA1EB80058EB47 /* Yaml.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Yaml.xcframework; path = Carthage/Build/Yaml.xcframework; sourceTree = SOURCE_ROOT; };
-		B9D7641629AA1EB80058EB47 /* CocoaLumberjackSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CocoaLumberjackSwift.xcframework; path = Carthage/Build/CocoaLumberjackSwift.xcframework; sourceTree = SOURCE_ROOT; };
-		B9D7641729AA1EB80058EB47 /* tun2socks.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = tun2socks.xcframework; path = Carthage/Build/tun2socks.xcframework; sourceTree = SOURCE_ROOT; };
-		B9D7641829AA1EB80058EB47 /* CocoaAsyncSocket.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CocoaAsyncSocket.xcframework; path = Carthage/Build/CocoaAsyncSocket.xcframework; sourceTree = SOURCE_ROOT; };
-		CD6598CE1561CB4E3D5E9DD1 /* Pods_NEKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0AB221DBD8B523347F2E39D /* Pods_NEKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD36B0F935DC9CA3B378276C /* Pods-NEKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-NEKitDemo/Pods-NEKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B90BEA6329AA4B4400E0FF18 /* lwip.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = lwip.xcframework; path = Carthage/Build/lwip.xcframework; sourceTree = "<group>"; };
+		B90BEA6429AA4B4400E0FF18 /* CocoaLumberjackSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CocoaLumberjackSwift.xcframework; path = Carthage/Build/CocoaLumberjackSwift.xcframework; sourceTree = "<group>"; };
+		B90BEA6529AA4B4400E0FF18 /* tun2socks.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = tun2socks.xcframework; path = Carthage/Build/tun2socks.xcframework; sourceTree = "<group>"; };
+		B90BEA6629AA4B4500E0FF18 /* CocoaLumberjack.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CocoaLumberjack.xcframework; path = Carthage/Build/CocoaLumberjack.xcframework; sourceTree = "<group>"; };
+		B90BEA6729AA4B4500E0FF18 /* CocoaAsyncSocket.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CocoaAsyncSocket.xcframework; path = Carthage/Build/CocoaAsyncSocket.xcframework; sourceTree = "<group>"; };
+		B90BEA6829AA4B4500E0FF18 /* Yaml.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Yaml.xcframework; path = Carthage/Build/Yaml.xcframework; sourceTree = "<group>"; };
+		B90BEA6929AA4B4500E0FF18 /* Resolver.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Resolver.xcframework; path = Carthage/Build/Resolver.xcframework; sourceTree = "<group>"; };
+		B90BEA6A29AA4B4500E0FF18 /* MMDB.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MMDB.xcframework; path = Carthage/Build/MMDB.xcframework; sourceTree = "<group>"; };
+		B90BEA6B29AA4B4500E0FF18 /* Sodium.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Sodium.xcframework; path = Carthage/Build/Sodium.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -545,8 +482,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				362347391D7E6F3D00A047DE /* Nimble.framework in Frameworks */,
-				3623473A1D7E6F3D00A047DE /* Quick.framework in Frameworks */,
 				362347181D7D44E700A047DE /* NEKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,16 +498,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				360F392C1DD2068E002BED59 /* Resolver.framework in Frameworks */,
-				36C4B7E41D6C517600F2BDCD /* CocoaAsyncSocket.framework in Frameworks */,
-				36C4B7E51D6C517600F2BDCD /* CocoaLumberjack.framework in Frameworks */,
-				36C4B7E61D6C517600F2BDCD /* CocoaLumberjackSwift.framework in Frameworks */,
-				36C4B7E81D6C517600F2BDCD /* lwip.framework in Frameworks */,
-				36C4B7E91D6C517600F2BDCD /* MMDB.framework in Frameworks */,
-				36C4B7EA1D6C517600F2BDCD /* Sodium.framework in Frameworks */,
-				36C4B7EB1D6C517600F2BDCD /* tun2socks.framework in Frameworks */,
-				36C4B7EC1D6C517600F2BDCD /* Yaml.framework in Frameworks */,
-				C2F4DAB7DA6F43E245F515F6 /* Pods_NEKit_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,17 +505,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C4B8191D6C51A400F2BDCD /* lwip.framework in Frameworks */,
-				36C4B8151D6C51A400F2BDCD /* CocoaLumberjackSwift.framework in Frameworks */,
-				36C4B8111D6C51A400F2BDCD /* CocoaAsyncSocket.framework in Frameworks */,
-				36C4B8131D6C51A400F2BDCD /* CocoaLumberjack.framework in Frameworks */,
-				36C4B81F1D6C51A400F2BDCD /* tun2socks.framework in Frameworks */,
-				36C4B8211D6C51A400F2BDCD /* Yaml.framework in Frameworks */,
-				36C4B81D1D6C51A400F2BDCD /* Sodium.framework in Frameworks */,
 				36A719B71D5EEB5900DC35F5 /* NEKit.framework in Frameworks */,
-				36C4B81B1D6C51A400F2BDCD /* MMDB.framework in Frameworks */,
-				36E9CD041DD6F0DE003597CE /* Resolver.framework in Frameworks */,
-				6484DBDE800363CD08E00804 /* Pods_NEKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,15 +513,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9D7641D29AA1EB80058EB47 /* Yaml.xcframework in Frameworks */,
-				B9D7641C29AA1EB80058EB47 /* CocoaLumberjack.xcframework in Frameworks */,
-				B9D7641E29AA1EB80058EB47 /* CocoaLumberjackSwift.xcframework in Frameworks */,
-				B9D7641B29AA1EB80058EB47 /* Resolver.xcframework in Frameworks */,
-				B9D7641929AA1EB80058EB47 /* lwip.xcframework in Frameworks */,
-				B9D7641F29AA1EB80058EB47 /* tun2socks.xcframework in Frameworks */,
-				B9D7641A29AA1EB80058EB47 /* Sodium.xcframework in Frameworks */,
-				B9D7642029AA1EB80058EB47 /* CocoaAsyncSocket.xcframework in Frameworks */,
-				8532D981273ADE07564156ED /* Pods_NEKit_iOS.framework in Frameworks */,
+				B90BEA7C29AA4B4600E0FF18 /* Sodium.xcframework in Frameworks */,
+				B90BEA7629AA4B4600E0FF18 /* Yaml.xcframework in Frameworks */,
+				B90BEA6E29AA4B4500E0FF18 /* CocoaLumberjackSwift.xcframework in Frameworks */,
+				B90BEA7829AA4B4600E0FF18 /* Resolver.xcframework in Frameworks */,
+				B90BEA6C29AA4B4500E0FF18 /* lwip.xcframework in Frameworks */,
+				B90BEA7029AA4B4500E0FF18 /* tun2socks.xcframework in Frameworks */,
+				B90BEA7429AA4B4600E0FF18 /* CocoaAsyncSocket.xcframework in Frameworks */,
+				B90BEA7229AA4B4500E0FF18 /* CocoaLumberjack.xcframework in Frameworks */,
+				B90BEA7A29AA4B4600E0FF18 /* MMDB.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,11 +531,15 @@
 		360F392A1DD2068D002BED59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				36C48D9B1CF9483F0071804F /* iOS */,
-				36C48D9C1CF948500071804F /* macOS */,
-				CD6598CE1561CB4E3D5E9DD1 /* Pods_NEKit_iOS.framework */,
-				D0AB221DBD8B523347F2E39D /* Pods_NEKit_macOS.framework */,
-				6717D5035685913A1F645A6A /* Pods_NEKitDemo.framework */,
+				B90BEA6729AA4B4500E0FF18 /* CocoaAsyncSocket.xcframework */,
+				B90BEA6629AA4B4500E0FF18 /* CocoaLumberjack.xcframework */,
+				B90BEA6429AA4B4400E0FF18 /* CocoaLumberjackSwift.xcframework */,
+				B90BEA6329AA4B4400E0FF18 /* lwip.xcframework */,
+				B90BEA6A29AA4B4500E0FF18 /* MMDB.xcframework */,
+				B90BEA6929AA4B4500E0FF18 /* Resolver.xcframework */,
+				B90BEA6B29AA4B4500E0FF18 /* Sodium.xcframework */,
+				B90BEA6529AA4B4400E0FF18 /* tun2socks.xcframework */,
+				B90BEA6829AA4B4500E0FF18 /* Yaml.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -971,41 +890,6 @@
 			path = "NEKit-iOS";
 			sourceTree = "<group>";
 		};
-		36C48D9B1CF9483F0071804F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B9D7641829AA1EB80058EB47 /* CocoaAsyncSocket.xcframework */,
-				B9D7641429AA1EB70058EB47 /* CocoaLumberjack.xcframework */,
-				B9D7641629AA1EB80058EB47 /* CocoaLumberjackSwift.xcframework */,
-				B9D7641129AA1EB70058EB47 /* lwip.xcframework */,
-				B9D7641329AA1EB70058EB47 /* Resolver.xcframework */,
-				B9D7641229AA1EB70058EB47 /* Sodium.xcframework */,
-				B9D7641729AA1EB80058EB47 /* tun2socks.xcframework */,
-				B9D7641529AA1EB80058EB47 /* Yaml.xcframework */,
-			);
-			name = iOS;
-			path = "Carthage/Framework iOS";
-			sourceTree = "<group>";
-		};
-		36C48D9C1CF948500071804F /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				360F392B1DD2068E002BED59 /* Resolver.framework */,
-				362347371D7E6F3D00A047DE /* Nimble.framework */,
-				362347381D7E6F3D00A047DE /* Quick.framework */,
-				36C4B7DB1D6C517600F2BDCD /* CocoaAsyncSocket.framework */,
-				36C4B7DC1D6C517600F2BDCD /* CocoaLumberjack.framework */,
-				36C4B7DD1D6C517600F2BDCD /* CocoaLumberjackSwift.framework */,
-				36C4B7DF1D6C517600F2BDCD /* lwip.framework */,
-				36C4B7E01D6C517600F2BDCD /* MMDB.framework */,
-				36C4B7E11D6C517600F2BDCD /* Sodium.framework */,
-				36C4B7E21D6C517600F2BDCD /* tun2socks.framework */,
-				36C4B7E31D6C517600F2BDCD /* Yaml.framework */,
-			);
-			name = macOS;
-			path = "Carthage/Framework macOS";
-			sourceTree = "<group>";
-		};
 		36C48DA71CF9D6250071804F /* DNS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1074,12 +958,6 @@
 		7FF8A0084D6550E0C74FBF07 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2089D7E08327F5649283AFAC /* Pods-NEKit-iOS.debug.xcconfig */,
-				3154A2B64CC42E58A90A5538 /* Pods-NEKit-iOS.release.xcconfig */,
-				94BA310000883347A853024A /* Pods-NEKit-macOS.debug.xcconfig */,
-				6B0EE0EB4B20BBC144772199 /* Pods-NEKit-macOS.release.xcconfig */,
-				DD36B0F935DC9CA3B378276C /* Pods-NEKitDemo.debug.xcconfig */,
-				3D82B9CC83E46BEB4348BEDF /* Pods-NEKitDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1148,7 +1026,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36463A441CDCD5EB0040579C /* Build configuration list for PBXNativeTarget "NEKit-macOS" */;
 			buildPhases = (
-				70ADD839FD88B579CACE7BDA /* [CP] Check Pods Manifest.lock */,
 				36B05A151DE44D9800074910 /* ShellScript */,
 				36463A2B1CDCD5EB0040579C /* Sources */,
 				36463A2C1CDCD5EB0040579C /* Frameworks */,
@@ -1171,12 +1048,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36A719A41D5EEB4900DC35F5 /* Build configuration list for PBXNativeTarget "NEKitDemo" */;
 			buildPhases = (
-				3484E772C956CD0F32E0CD36 /* [CP] Check Pods Manifest.lock */,
 				36A719941D5EEB4900DC35F5 /* Sources */,
 				36A719951D5EEB4900DC35F5 /* Frameworks */,
 				36A719961D5EEB4900DC35F5 /* Resources */,
 				36A719BB1D5EEB5900DC35F5 /* Embed Frameworks */,
-				DE600332493ADB48134D12DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1192,7 +1067,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36C48D521CF88DED0071804F /* Build configuration list for PBXNativeTarget "NEKit-iOS" */;
 			buildPhases = (
-				FF9A31EC1922C3561069779B /* [CP] Check Pods Manifest.lock */,
 				36B05A1B1DE4503800074910 /* ShellScript */,
 				36C48D481CF88DED0071804F /* Sources */,
 				36C48D491CF88DED0071804F /* Frameworks */,
@@ -1308,28 +1182,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3484E772C956CD0F32E0CD36 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NEKitDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		36B05A151DE44D9800074910 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1354,7 +1206,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "echo Generating $PROJECT_DIR/Frameworks/$(PLATFORM_NAME)/CommonCrypto.framework\nxcrun -sdk macosx swift ./GenerateCommonCryptoModule.swift $PLATFORM_NAME $PROJECT_DIR";
+			shellScript = "echo Generating $PROJECT_DIR/Frameworks/$(PLATFORM_NAME)/CommonCrypto.framework\nxcrun -sdk macosx swift ./GenerateCommonCryptoModule.swift $PLATFORM_NAME $PROJECT_DIR\n";
 		};
 		54BD0DA398CF0C5B9E0B9491 /* Set version number */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1369,28 +1221,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "git=$(sh /etc/profile; which git)\ngit_release_version=$(\"$git\" describe --tags --always --abbrev=0)\nnumber_of_commits=$(\"$git\" rev-list master --count)\ntarget_plist=\"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\ndsym_plist=\"$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Info.plist\"\n\nfor plist in \"$target_plist\" \"$dsym_plist\"; do\n  if [ -f \"$plist\" ]; then\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $number_of_commits\" \"$plist\"\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString ${git_release_version#*v}\" \"$plist\"\n  fi\ndone\n";
-		};
-		70ADD839FD88B579CACE7BDA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NEKit-macOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 		B596614759D8E2954DE5A031 /* Warn for TODO and FIXME comments */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1420,24 +1250,6 @@
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"swift|h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/Carthage\" -prune -o -ipath \"${SRCROOT}/pods\" -prune -o -ipath \"${SRCROOT}/tun2socks\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
 		};
-		DE600332493ADB48134D12DF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NEKitDemo/Pods-NEKitDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MMDB-Swift-macOS/MMDB_Swift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMDB_Swift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NEKitDemo/Pods-NEKitDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E60ADF4730A8B268DBD07CAC /* Set version number */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1451,28 +1263,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "git=$(sh /etc/profile; which git)\ngit_release_version=$(\"$git\" describe --tags --always --abbrev=0)\nnumber_of_commits=$(\"$git\" rev-list master --count)\ntarget_plist=\"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\ndsym_plist=\"$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Info.plist\"\n\nfor plist in \"$target_plist\" \"$dsym_plist\"; do\n  if [ -f \"$plist\" ]; then\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $number_of_commits\" \"$plist\"\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString ${git_release_version#*v}\" \"$plist\"\n  fi\ndone\n";
-		};
-		FF9A31EC1922C3561069779B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NEKit-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1989,7 +1779,6 @@
 		};
 		36463A451CDCD5EB0040579C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94BA310000883347A853024A /* Pods-NEKit-macOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -2022,7 +1811,6 @@
 		};
 		36463A461CDCD5EB0040579C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B0EE0EB4B20BBC144772199 /* Pods-NEKit-macOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -2055,7 +1843,6 @@
 		};
 		36A719A21D5EEB4900DC35F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD36B0F935DC9CA3B378276C /* Pods-NEKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2079,7 +1866,6 @@
 		};
 		36A719A31D5EEB4900DC35F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D82B9CC83E46BEB4348BEDF /* Pods-NEKitDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2103,7 +1889,6 @@
 		};
 		36C48D531CF88DED0071804F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2089D7E08327F5649283AFAC /* Pods-NEKit-iOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -2142,7 +1927,6 @@
 		};
 		36C48D541CF88DED0071804F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3154A2B64CC42E58A90A5538 /* Pods-NEKit-iOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;

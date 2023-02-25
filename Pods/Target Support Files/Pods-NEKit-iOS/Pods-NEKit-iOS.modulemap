@@ -1,6 +1,0 @@
-framework module Pods_NEKit_iOS {
-  umbrella header "Pods-NEKit-iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

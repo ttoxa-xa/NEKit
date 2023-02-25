@@ -1,6 +1,0 @@
-framework module Pods_NEKit_macOS {
-  umbrella header "Pods-NEKit-macOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
