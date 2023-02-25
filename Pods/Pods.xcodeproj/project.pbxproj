@@ -1,0 +1,1138 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008311FC90965CEADF08F4ECB920E934 /* maxminddb.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A085384939278A69DAD4255400A415B /* maxminddb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		095014D470FF4CB0F1F76CADEAE38224 /* MMDB-Swift-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F05120E02688540050072EFD714473 /* MMDB-Swift-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC25CFA93296EF3277DFB62CE3ADB81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9549A2323CDDA0B3FFED8BAD991538 /* Foundation.framework */; };
+		1DFD03AB70019BAEA50B0870364891FB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C42A6CF2B63AD72435F963BB36B91 /* Cocoa.framework */; };
+		200F78A2890737EE36C560C30914CD90 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C42A6CF2B63AD72435F963BB36B91 /* Cocoa.framework */; };
+		28E02EBA946B37F2AEC88937FF1A2E83 /* data-pool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4E2F6AB5FBC02A9DDB4CBCEA743772 /* data-pool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E2A51BA20278D3166798E53A402154E /* maxminddb_unions.c in Sources */ = {isa = PBXBuildFile; fileRef = FCEA814B882460B87D24A42E7AE3B766 /* maxminddb_unions.c */; };
+		3014C1481F000236A68F9260E6BD4D14 /* maxminddb_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5D2C99D3EF51BA6B86D8FEFB072139 /* maxminddb_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		383EBAD716EFEBCBCCB0D6ACEA4C79D1 /* maxminddb_unions.c in Sources */ = {isa = PBXBuildFile; fileRef = FCEA814B882460B87D24A42E7AE3B766 /* maxminddb_unions.c */; };
+		3B5FF968CFC2593E210262F9E354E372 /* data-pool.c in Sources */ = {isa = PBXBuildFile; fileRef = 72D532DEE8C66C8E8724C2F596D8E3F3 /* data-pool.c */; };
+		4B97E973626403302D98E8B31D923C14 /* Pods-NEKit-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9571B7FDBB00779038934A7F46208D /* Pods-NEKit-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EC9E2E217F0FE42214D4495FAA4F8C3 /* MMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F17AF0838446AE6ECF3626777F7EC33 /* MMDB.swift */; };
+		50C0F701B8BF42A165414A855314E2FD /* Pods-NEKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3342002D166D756C0118B34D6DD48D /* Pods-NEKit-iOS-dummy.m */; };
+		5673697DED125F2BABDAC151CE235F62 /* maxminddb.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A085384939278A69DAD4255400A415B /* maxminddb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		578E91EFCC85BC03EB946C154D979BBF /* data-pool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4E2F6AB5FBC02A9DDB4CBCEA743772 /* data-pool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C1E1C62124B175D006442149FC323AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9549A2323CDDA0B3FFED8BAD991538 /* Foundation.framework */; };
+		5E2FD8208DAF1D00F661A31B24E431E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A00DE3FFDA2326F732F9B19D2EA4421 /* Foundation.framework */; };
+		6626181C2736761FF3469B443A80AAE1 /* MMDB-Swift-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D9F0FD45B381AB4E142E7973590DC5 /* MMDB-Swift-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665FF633CD168DE0BC01550118B11118 /* Pods-NEKitDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1659A3739ACE7E0DD1DFDCB62FC0F9 /* Pods-NEKitDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82769CFF7A85FEF7F4B6CBA8AB50C111 /* Pods-NEKit-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9958910DEE01C4DFA5BD7FF3D8B97AE /* Pods-NEKit-macOS-dummy.m */; };
+		9853293EBCD641E699511CFB39CE6EDA /* maxminddb-compat-util.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D600FE3FE552C0B7217C9C2676113F /* maxminddb-compat-util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A042F059980016D12B3A7BF7B10BC44E /* MMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F17AF0838446AE6ECF3626777F7EC33 /* MMDB.swift */; };
+		A4405DC9CCDC9C3BDFDC26E4A8DF24BD /* Pods-NEKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9891A3D164E3CE10E6849904FBE29D9D /* Pods-NEKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDAE2B9830152B74094C2B240CDE4EAE /* maxminddb.c in Sources */ = {isa = PBXBuildFile; fileRef = 8842552A98843858C5C44DA00204A2EB /* maxminddb.c */; };
+		C018082EB560FDBFB245D9B967C0BC76 /* data-pool.c in Sources */ = {isa = PBXBuildFile; fileRef = 72D532DEE8C66C8E8724C2F596D8E3F3 /* data-pool.c */; };
+		C96156807AB18EC51930435130DFDCC2 /* maxminddb_unions.h in Headers */ = {isa = PBXBuildFile; fileRef = 25493AE421679B0D120FE15E2635FF48 /* maxminddb_unions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D5F7C2112CAF574DAA2AB4C64E041A /* MMDB-Swift-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA63855AC9464FED3FCEBC275FF2B258 /* MMDB-Swift-macOS-dummy.m */; };
+		DFA90A587D158E48E787CF6C41124A4A /* maxminddb_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5D2C99D3EF51BA6B86D8FEFB072139 /* maxminddb_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E05D3B4BD717915A7659BE92F4DA6353 /* maxminddb_unions.h in Headers */ = {isa = PBXBuildFile; fileRef = 25493AE421679B0D120FE15E2635FF48 /* maxminddb_unions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4A81B76B7F9FDB2143837947BAB38C8 /* Pods-NEKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F763313DFF63A408037CD342885EAA /* Pods-NEKitDemo-dummy.m */; };
+		EC4FC5CF00809ABEB8516A92B1385BED /* maxminddb.c in Sources */ = {isa = PBXBuildFile; fileRef = 8842552A98843858C5C44DA00204A2EB /* maxminddb.c */; };
+		F521EAD3F1B52BC5562299BFBA3F4B8C /* MMDB-Swift-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421E1CF87F7940CB7C9B2CEE459E18F /* MMDB-Swift-iOS-dummy.m */; };
+		FD978BA2DC9FD6D1389FC2E00B9A5962 /* maxminddb-compat-util.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D600FE3FE552C0B7217C9C2676113F /* maxminddb-compat-util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD97CC334A7172D7BCEC3980B7BBFB37 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C42A6CF2B63AD72435F963BB36B91 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D44AAD873CD0A48971FC621BF759154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7E9DDE90C17FB5BF4EECE4FBE7BEA9;
+			remoteInfo = "MMDB-Swift-macOS";
+		};
+		0DFADC50E213209B3B996ABC51C85C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3C579E722CD43C7931426B15E8427F1;
+			remoteInfo = "MMDB-Swift-iOS";
+		};
+		F88A327835D80828C5F87C104455C48C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7E9DDE90C17FB5BF4EECE4FBE7BEA9;
+			remoteInfo = "MMDB-Swift-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AF45C712304D8494C14C59B5AEDFE5 /* Pods-NEKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NEKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		03C658D39E8E3BF2611E45C18FBCCCA4 /* MMDB-Swift-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MMDB-Swift-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0421E1CF87F7940CB7C9B2CEE459E18F /* MMDB-Swift-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMDB-Swift-iOS-dummy.m"; sourceTree = "<group>"; };
+		07BEBE74AEE29D86882AA8448431DBD1 /* Pods-NEKitDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NEKitDemo"; path = Pods_NEKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9D71947AB6E1F98B233F442269583B /* Pods-NEKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NEKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		118B6335457DB10AFF2D89F76496AC88 /* MMDB-Swift-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDB-Swift-iOS-prefix.pch"; sourceTree = "<group>"; };
+		18410B06F5D6BF1DE1A356D5157CAAB3 /* Pods-NEKit-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NEKit-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		223D4F6FE773F3A7CB51C6E1C11AF777 /* Pods-NEKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NEKit-iOS.modulemap"; sourceTree = "<group>"; };
+		25493AE421679B0D120FE15E2635FF48 /* maxminddb_unions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = maxminddb_unions.h; path = Sources/libmaxminddb/maxminddb_unions.h; sourceTree = "<group>"; };
+		2CCB94C689D73EE0D68CC0B258856F25 /* Pods-NEKit-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NEKit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2E18C6A6AF44C494176199D9C1D59B50 /* Pods-NEKit-macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NEKit-macOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		3057087FEC5012332E3BE36F4C74E79A /* MMDB-Swift-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "MMDB-Swift-macOS-Info.plist"; path = "../MMDB-Swift-macOS/MMDB-Swift-macOS-Info.plist"; sourceTree = "<group>"; };
+		32F05120E02688540050072EFD714473 /* MMDB-Swift-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDB-Swift-iOS-umbrella.h"; sourceTree = "<group>"; };
+		34A784E9A33206755F3AC72082E13BB8 /* MMDB-Swift-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MMDB-Swift-macOS-prefix.pch"; path = "../MMDB-Swift-macOS/MMDB-Swift-macOS-prefix.pch"; sourceTree = "<group>"; };
+		369C6C78AE3FDF7AEBE7EB74CAC8DE43 /* Pods-NEKit-macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NEKit-macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		393724B04ED59C93C31D803E5121FE0D /* Pods-NEKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NEKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D7C4236E123A9E1DFA3623AAD65A6F5 /* MMDB-Swift-macOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "MMDB-Swift-macOS"; path = MMDB_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		485C42A6CF2B63AD72435F963BB36B91 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		551F765700EE1C8929F80AEB4FF97A4C /* MMDB-Swift-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MMDB-Swift-macOS.debug.xcconfig"; path = "../MMDB-Swift-macOS/MMDB-Swift-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		71D600FE3FE552C0B7217C9C2676113F /* maxminddb-compat-util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "maxminddb-compat-util.h"; path = "Sources/libmaxminddb/maxminddb-compat-util.h"; sourceTree = "<group>"; };
+		72D532DEE8C66C8E8724C2F596D8E3F3 /* data-pool.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "data-pool.c"; path = "Sources/libmaxminddb/data-pool.c"; sourceTree = "<group>"; };
+		73BE7ACE77618C48842143DBB9589636 /* MMDB-Swift-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MMDB-Swift-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		7A085384939278A69DAD4255400A415B /* maxminddb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = maxminddb.h; path = Sources/libmaxminddb/maxminddb.h; sourceTree = "<group>"; };
+		8842552A98843858C5C44DA00204A2EB /* maxminddb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = maxminddb.c; path = Sources/libmaxminddb/maxminddb.c; sourceTree = "<group>"; };
+		8A00DE3FFDA2326F732F9B19D2EA4421 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8C1659A3739ACE7E0DD1DFDCB62FC0F9 /* Pods-NEKitDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NEKitDemo-umbrella.h"; sourceTree = "<group>"; };
+		9891A3D164E3CE10E6849904FBE29D9D /* Pods-NEKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NEKit-iOS-umbrella.h"; sourceTree = "<group>"; };
+		9D4E2F6AB5FBC02A9DDB4CBCEA743772 /* data-pool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "data-pool.h"; path = "Sources/libmaxminddb/data-pool.h"; sourceTree = "<group>"; };
+		9D5D2C99D3EF51BA6B86D8FEFB072139 /* maxminddb_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = maxminddb_config.h; path = Sources/libmaxminddb/maxminddb_config.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F17AF0838446AE6ECF3626777F7EC33 /* MMDB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMDB.swift; path = Sources/MMDB.swift; sourceTree = "<group>"; };
+		A97814BDC5D1FA5B7BA4B18446EE90DF /* MMDB-Swift-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MMDB-Swift-iOS.modulemap"; sourceTree = "<group>"; };
+		AA8E786756F812780E3113BD2E599252 /* Pods-NEKit-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NEKit-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE3D1ACD186D68D1F545AEA60F600E53 /* Pods-NEKit-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NEKit-macOS-Info.plist"; sourceTree = "<group>"; };
+		AF4846CD7346E106474983B8B7E5135F /* MMDB-Swift-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "MMDB-Swift-iOS"; path = MMDB_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9571B7FDBB00779038934A7F46208D /* Pods-NEKit-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NEKit-macOS-umbrella.h"; sourceTree = "<group>"; };
+		BA63855AC9464FED3FCEBC275FF2B258 /* MMDB-Swift-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MMDB-Swift-macOS-dummy.m"; path = "../MMDB-Swift-macOS/MMDB-Swift-macOS-dummy.m"; sourceTree = "<group>"; };
+		C2CD1B6FEBF3FC7B3C1E2E72D9E24D7F /* Pods-NEKitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NEKitDemo-frameworks.sh"; sourceTree = "<group>"; };
+		C5967EA4F6D3AC716201A1FE8EBE9B23 /* Pods-NEKitDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NEKitDemo.modulemap"; sourceTree = "<group>"; };
+		C9F763313DFF63A408037CD342885EAA /* Pods-NEKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NEKitDemo-dummy.m"; sourceTree = "<group>"; };
+		CDCE764EC160B7B0CE69456C8C7D867A /* Pods-NEKit-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NEKit-iOS"; path = Pods_NEKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9549A2323CDDA0B3FFED8BAD991538 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF595CCE464EC6A054E147F07D05CF7F /* Pods-NEKitDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NEKitDemo-Info.plist"; sourceTree = "<group>"; };
+		D52E1C8CF432ACBA070201C2B39397F6 /* Pods-NEKit-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NEKit-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D685284BD6CB19DAF3F2648D9E616574 /* Pods-NEKit-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NEKit-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		DB4E4E3A18605E1CC2A8F4F88982C80C /* Pods-NEKit-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NEKit-macOS.modulemap"; sourceTree = "<group>"; };
+		DBA0A6B49269E1C6996881D3C746302B /* MMDB-Swift-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "MMDB-Swift-macOS.modulemap"; path = "../MMDB-Swift-macOS/MMDB-Swift-macOS.modulemap"; sourceTree = "<group>"; };
+		DBBBCA11563F6F84849F2E25786C7A5D /* Pods-NEKit-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NEKit-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E51F72686FAA00A1E1400A0D456BAB2B /* MMDB-Swift-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MMDB-Swift-macOS.release.xcconfig"; path = "../MMDB-Swift-macOS/MMDB-Swift-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		E9F06A7534322522FC3B896796413305 /* MMDB-Swift-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMDB-Swift-iOS-Info.plist"; sourceTree = "<group>"; };
+		EB3342002D166D756C0118B34D6DD48D /* Pods-NEKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NEKit-iOS-dummy.m"; sourceTree = "<group>"; };
+		F128FFC6460B0BAB987BFB7A2E9C36BF /* Pods-NEKit-macOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NEKit-macOS"; path = Pods_NEKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9958910DEE01C4DFA5BD7FF3D8B97AE /* Pods-NEKit-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NEKit-macOS-dummy.m"; sourceTree = "<group>"; };
+		F99753794B72EA14C1319912E7695140 /* Pods-NEKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NEKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F9D9F0FD45B381AB4E142E7973590DC5 /* MMDB-Swift-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MMDB-Swift-macOS-umbrella.h"; path = "../MMDB-Swift-macOS/MMDB-Swift-macOS-umbrella.h"; sourceTree = "<group>"; };
+		FBEEBBDA16373D58844CF683479D93B6 /* Pods-NEKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NEKit-iOS-Info.plist"; sourceTree = "<group>"; };
+		FCEA814B882460B87D24A42E7AE3B766 /* maxminddb_unions.c */ = {isa = PBXFileReference; includeInIndex = 1; name = maxminddb_unions.c; path = Sources/libmaxminddb/maxminddb_unions.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20412E5804BEB6FA7692B9B149DA3AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD97CC334A7172D7BCEC3980B7BBFB37 /* Cocoa.framework in Frameworks */,
+				5E2FD8208DAF1D00F661A31B24E431E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845E66518A0A2DBE39C457939D2AFE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1E1C62124B175D006442149FC323AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992DA4B56B5ECE9C13A17ABD5A97C936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200F78A2890737EE36C560C30914CD90 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A8D7A262FB74308EB1ACFAF7304BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC25CFA93296EF3277DFB62CE3ADB81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A08CC429B78DE841BFDCF41C1179B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFD03AB70019BAEA50B0870364891FB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0461CF1C7B2B8B159F089DA630AE735E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A97814BDC5D1FA5B7BA4B18446EE90DF /* MMDB-Swift-iOS.modulemap */,
+				0421E1CF87F7940CB7C9B2CEE459E18F /* MMDB-Swift-iOS-dummy.m */,
+				E9F06A7534322522FC3B896796413305 /* MMDB-Swift-iOS-Info.plist */,
+				118B6335457DB10AFF2D89F76496AC88 /* MMDB-Swift-iOS-prefix.pch */,
+				32F05120E02688540050072EFD714473 /* MMDB-Swift-iOS-umbrella.h */,
+				03C658D39E8E3BF2611E45C18FBCCCA4 /* MMDB-Swift-iOS.debug.xcconfig */,
+				73BE7ACE77618C48842143DBB9589636 /* MMDB-Swift-iOS.release.xcconfig */,
+				DBA0A6B49269E1C6996881D3C746302B /* MMDB-Swift-macOS.modulemap */,
+				BA63855AC9464FED3FCEBC275FF2B258 /* MMDB-Swift-macOS-dummy.m */,
+				3057087FEC5012332E3BE36F4C74E79A /* MMDB-Swift-macOS-Info.plist */,
+				34A784E9A33206755F3AC72082E13BB8 /* MMDB-Swift-macOS-prefix.pch */,
+				F9D9F0FD45B381AB4E142E7973590DC5 /* MMDB-Swift-macOS-umbrella.h */,
+				551F765700EE1C8929F80AEB4FF97A4C /* MMDB-Swift-macOS.debug.xcconfig */,
+				E51F72686FAA00A1E1400A0D456BAB2B /* MMDB-Swift-macOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMDB-Swift-iOS";
+			sourceTree = "<group>";
+		};
+		09BE8723394D34860188A40F70CE7FD6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B61052E022BADA6EC5D041E5C734832 /* Pods-NEKit-iOS */,
+				5023B0931150404178EFB987633E1F17 /* Pods-NEKit-macOS */,
+				5E4D842286A3C3F4F5B561F6E4FD25FB /* Pods-NEKitDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5023B0931150404178EFB987633E1F17 /* Pods-NEKit-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DB4E4E3A18605E1CC2A8F4F88982C80C /* Pods-NEKit-macOS.modulemap */,
+				369C6C78AE3FDF7AEBE7EB74CAC8DE43 /* Pods-NEKit-macOS-acknowledgements.markdown */,
+				2E18C6A6AF44C494176199D9C1D59B50 /* Pods-NEKit-macOS-acknowledgements.plist */,
+				F9958910DEE01C4DFA5BD7FF3D8B97AE /* Pods-NEKit-macOS-dummy.m */,
+				AE3D1ACD186D68D1F545AEA60F600E53 /* Pods-NEKit-macOS-Info.plist */,
+				AF9571B7FDBB00779038934A7F46208D /* Pods-NEKit-macOS-umbrella.h */,
+				D52E1C8CF432ACBA070201C2B39397F6 /* Pods-NEKit-macOS.debug.xcconfig */,
+				18410B06F5D6BF1DE1A356D5157CAAB3 /* Pods-NEKit-macOS.release.xcconfig */,
+			);
+			name = "Pods-NEKit-macOS";
+			path = "Target Support Files/Pods-NEKit-macOS";
+			sourceTree = "<group>";
+		};
+		593D7DAC07FA8FD14F5AB883876DF3AF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CE9549A2323CDDA0B3FFED8BAD991538 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E4D842286A3C3F4F5B561F6E4FD25FB /* Pods-NEKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C5967EA4F6D3AC716201A1FE8EBE9B23 /* Pods-NEKitDemo.modulemap */,
+				393724B04ED59C93C31D803E5121FE0D /* Pods-NEKitDemo-acknowledgements.markdown */,
+				0D9D71947AB6E1F98B233F442269583B /* Pods-NEKitDemo-acknowledgements.plist */,
+				C9F763313DFF63A408037CD342885EAA /* Pods-NEKitDemo-dummy.m */,
+				C2CD1B6FEBF3FC7B3C1E2E72D9E24D7F /* Pods-NEKitDemo-frameworks.sh */,
+				CF595CCE464EC6A054E147F07D05CF7F /* Pods-NEKitDemo-Info.plist */,
+				8C1659A3739ACE7E0DD1DFDCB62FC0F9 /* Pods-NEKitDemo-umbrella.h */,
+				F99753794B72EA14C1319912E7695140 /* Pods-NEKitDemo.debug.xcconfig */,
+				03AF45C712304D8494C14C59B5AEDFE5 /* Pods-NEKitDemo.release.xcconfig */,
+			);
+			name = "Pods-NEKitDemo";
+			path = "Target Support Files/Pods-NEKitDemo";
+			sourceTree = "<group>";
+		};
+		7B61052E022BADA6EC5D041E5C734832 /* Pods-NEKit-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				223D4F6FE773F3A7CB51C6E1C11AF777 /* Pods-NEKit-iOS.modulemap */,
+				DBBBCA11563F6F84849F2E25786C7A5D /* Pods-NEKit-iOS-acknowledgements.markdown */,
+				AA8E786756F812780E3113BD2E599252 /* Pods-NEKit-iOS-acknowledgements.plist */,
+				EB3342002D166D756C0118B34D6DD48D /* Pods-NEKit-iOS-dummy.m */,
+				FBEEBBDA16373D58844CF683479D93B6 /* Pods-NEKit-iOS-Info.plist */,
+				9891A3D164E3CE10E6849904FBE29D9D /* Pods-NEKit-iOS-umbrella.h */,
+				2CCB94C689D73EE0D68CC0B258856F25 /* Pods-NEKit-iOS.debug.xcconfig */,
+				D685284BD6CB19DAF3F2648D9E616574 /* Pods-NEKit-iOS.release.xcconfig */,
+			);
+			name = "Pods-NEKit-iOS";
+			path = "Target Support Files/Pods-NEKit-iOS";
+			sourceTree = "<group>";
+		};
+		A1C8220B97BB77E1BF099DB1580DC027 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				485C42A6CF2B63AD72435F963BB36B91 /* Cocoa.framework */,
+				8A00DE3FFDA2326F732F9B19D2EA4421 /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		B7B555A2F6E21EA73BA053B3C37FB0CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED663A74B8CCCFF2D84D686AD58DB662 /* MMDB-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEAF173CF7BAF5537488976CEC756DA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				593D7DAC07FA8FD14F5AB883876DF3AF /* iOS */,
+				A1C8220B97BB77E1BF099DB1580DC027 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B2CC788F1AC78B81CFFEBB8507B931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4846CD7346E106474983B8B7E5135F /* MMDB-Swift-iOS */,
+				3D7C4236E123A9E1DFA3623AAD65A6F5 /* MMDB-Swift-macOS */,
+				CDCE764EC160B7B0CE69456C8C7D867A /* Pods-NEKit-iOS */,
+				F128FFC6460B0BAB987BFB7A2E9C36BF /* Pods-NEKit-macOS */,
+				07BEBE74AEE29D86882AA8448431DBD1 /* Pods-NEKitDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BEAF173CF7BAF5537488976CEC756DA3 /* Frameworks */,
+				B7B555A2F6E21EA73BA053B3C37FB0CF /* Pods */,
+				C3B2CC788F1AC78B81CFFEBB8507B931 /* Products */,
+				09BE8723394D34860188A40F70CE7FD6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ED663A74B8CCCFF2D84D686AD58DB662 /* MMDB-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				72D532DEE8C66C8E8724C2F596D8E3F3 /* data-pool.c */,
+				9D4E2F6AB5FBC02A9DDB4CBCEA743772 /* data-pool.h */,
+				8842552A98843858C5C44DA00204A2EB /* maxminddb.c */,
+				7A085384939278A69DAD4255400A415B /* maxminddb.h */,
+				71D600FE3FE552C0B7217C9C2676113F /* maxminddb-compat-util.h */,
+				9D5D2C99D3EF51BA6B86D8FEFB072139 /* maxminddb_config.h */,
+				FCEA814B882460B87D24A42E7AE3B766 /* maxminddb_unions.c */,
+				25493AE421679B0D120FE15E2635FF48 /* maxminddb_unions.h */,
+				9F17AF0838446AE6ECF3626777F7EC33 /* MMDB.swift */,
+				0461CF1C7B2B8B159F089DA630AE735E /* Support Files */,
+			);
+			name = "MMDB-Swift";
+			path = "MMDB-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F355105785FF4CED721053ABCE10E73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665FF633CD168DE0BC01550118B11118 /* Pods-NEKitDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5D3D7E313548731921F46A813BA85F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578E91EFCC85BC03EB946C154D979BBF /* data-pool.h in Headers */,
+				008311FC90965CEADF08F4ECB920E934 /* maxminddb.h in Headers */,
+				FD978BA2DC9FD6D1389FC2E00B9A5962 /* maxminddb-compat-util.h in Headers */,
+				3014C1481F000236A68F9260E6BD4D14 /* maxminddb_config.h in Headers */,
+				E05D3B4BD717915A7659BE92F4DA6353 /* maxminddb_unions.h in Headers */,
+				6626181C2736761FF3469B443A80AAE1 /* MMDB-Swift-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A571FA1CBB3FD6F499A9E5AFD0D37C93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B97E973626403302D98E8B31D923C14 /* Pods-NEKit-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6148E44B03273217C686883BCC7B6EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E02EBA946B37F2AEC88937FF1A2E83 /* data-pool.h in Headers */,
+				5673697DED125F2BABDAC151CE235F62 /* maxminddb.h in Headers */,
+				9853293EBCD641E699511CFB39CE6EDA /* maxminddb-compat-util.h in Headers */,
+				DFA90A587D158E48E787CF6C41124A4A /* maxminddb_config.h in Headers */,
+				C96156807AB18EC51930435130DFDCC2 /* maxminddb_unions.h in Headers */,
+				095014D470FF4CB0F1F76CADEAE38224 /* MMDB-Swift-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EC93A9A7E56CCF59AA6DCB265642BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4405DC9CCDC9C3BDFDC26E4A8DF24BD /* Pods-NEKit-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E49202BBD1A035FAC0750BBCC224F5F /* Pods-NEKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6277AF63B85A2A71770E489EF09DF1AF /* Build configuration list for PBXNativeTarget "Pods-NEKitDemo" */;
+			buildPhases = (
+				1F355105785FF4CED721053ABCE10E73 /* Headers */,
+				A4A6DC525EEA8BBB62EB75A41C601D98 /* Sources */,
+				F59A08CC429B78DE841BFDCF41C1179B /* Frameworks */,
+				2478774449D987316FFE6183A309E53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54BE5BEA7BE94C0CBB2C78BC328AA45E /* PBXTargetDependency */,
+			);
+			name = "Pods-NEKitDemo";
+			productName = Pods_NEKitDemo;
+			productReference = 07BEBE74AEE29D86882AA8448431DBD1 /* Pods-NEKitDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+		80CAD592FC6D58D35CDA6F413118B09F /* Pods-NEKit-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA708549A7F0B55287EF04CCD2794217 /* Build configuration list for PBXNativeTarget "Pods-NEKit-iOS" */;
+			buildPhases = (
+				E6EC93A9A7E56CCF59AA6DCB265642BD /* Headers */,
+				C92ADB35F731DEFD9EB1989795D47C15 /* Sources */,
+				845E66518A0A2DBE39C457939D2AFE00 /* Frameworks */,
+				2B999B29CAAFB9115B21037790675A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242D2017B2F17EC6E77375E0BDF4A9DB /* PBXTargetDependency */,
+			);
+			name = "Pods-NEKit-iOS";
+			productName = Pods_NEKit_iOS;
+			productReference = CDCE764EC160B7B0CE69456C8C7D867A /* Pods-NEKit-iOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		837E2E42CFF1BE5A8E39BAED5B06A00D /* Pods-NEKit-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3231171E30C5AB6CDFB062A9D76958C4 /* Build configuration list for PBXNativeTarget "Pods-NEKit-macOS" */;
+			buildPhases = (
+				A571FA1CBB3FD6F499A9E5AFD0D37C93 /* Headers */,
+				632F8D660F28F7F135EF09B98025C2AF /* Sources */,
+				992DA4B56B5ECE9C13A17ABD5A97C936 /* Frameworks */,
+				753D7D3F19594ED8AD5ECDF38A9575CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A5252116C39892B60241493FDD281A /* PBXTargetDependency */,
+			);
+			name = "Pods-NEKit-macOS";
+			productName = Pods_NEKit_macOS;
+			productReference = F128FFC6460B0BAB987BFB7A2E9C36BF /* Pods-NEKit-macOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3C579E722CD43C7931426B15E8427F1 /* MMDB-Swift-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4DD973EACE3DAF2C60EB3B0CCD9A10C /* Build configuration list for PBXNativeTarget "MMDB-Swift-iOS" */;
+			buildPhases = (
+				B6148E44B03273217C686883BCC7B6EB /* Headers */,
+				6F0F53DCAFA9C2D296CCC915C90C2C6F /* Sources */,
+				E7A8D7A262FB74308EB1ACFAF7304BD5 /* Frameworks */,
+				4E8FC8D682582D87726147A633FFE656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MMDB-Swift-iOS";
+			productName = MMDB_Swift;
+			productReference = AF4846CD7346E106474983B8B7E5135F /* MMDB-Swift-iOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC7E9DDE90C17FB5BF4EECE4FBE7BEA9 /* MMDB-Swift-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEC00E36436C11AB469BF828FCC3A2C /* Build configuration list for PBXNativeTarget "MMDB-Swift-macOS" */;
+			buildPhases = (
+				5C5D3D7E313548731921F46A813BA85F /* Headers */,
+				16977FF63B2EF2811EC965B73319B2A2 /* Sources */,
+				20412E5804BEB6FA7692B9B149DA3AF1 /* Frameworks */,
+				F914284B49D5756B59780F3721B782FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MMDB-Swift-macOS";
+			productName = MMDB_Swift;
+			productReference = 3D7C4236E123A9E1DFA3623AAD65A6F5 /* MMDB-Swift-macOS */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C3B2CC788F1AC78B81CFFEBB8507B931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3C579E722CD43C7931426B15E8427F1 /* MMDB-Swift-iOS */,
+				CC7E9DDE90C17FB5BF4EECE4FBE7BEA9 /* MMDB-Swift-macOS */,
+				80CAD592FC6D58D35CDA6F413118B09F /* Pods-NEKit-iOS */,
+				837E2E42CFF1BE5A8E39BAED5B06A00D /* Pods-NEKit-macOS */,
+				4E49202BBD1A035FAC0750BBCC224F5F /* Pods-NEKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2478774449D987316FFE6183A309E53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B999B29CAAFB9115B21037790675A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8FC8D682582D87726147A633FFE656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753D7D3F19594ED8AD5ECDF38A9575CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F914284B49D5756B59780F3721B782FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16977FF63B2EF2811EC965B73319B2A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5FF968CFC2593E210262F9E354E372 /* data-pool.c in Sources */,
+				EC4FC5CF00809ABEB8516A92B1385BED /* maxminddb.c in Sources */,
+				2E2A51BA20278D3166798E53A402154E /* maxminddb_unions.c in Sources */,
+				A042F059980016D12B3A7BF7B10BC44E /* MMDB.swift in Sources */,
+				D9D5F7C2112CAF574DAA2AB4C64E041A /* MMDB-Swift-macOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632F8D660F28F7F135EF09B98025C2AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82769CFF7A85FEF7F4B6CBA8AB50C111 /* Pods-NEKit-macOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0F53DCAFA9C2D296CCC915C90C2C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C018082EB560FDBFB245D9B967C0BC76 /* data-pool.c in Sources */,
+				BDAE2B9830152B74094C2B240CDE4EAE /* maxminddb.c in Sources */,
+				383EBAD716EFEBCBCCB0D6ACEA4C79D1 /* maxminddb_unions.c in Sources */,
+				4EC9E2E217F0FE42214D4495FAA4F8C3 /* MMDB.swift in Sources */,
+				F521EAD3F1B52BC5562299BFBA3F4B8C /* MMDB-Swift-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A6DC525EEA8BBB62EB75A41C601D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A81B76B7F9FDB2143837947BAB38C8 /* Pods-NEKitDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92ADB35F731DEFD9EB1989795D47C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C0F701B8BF42A165414A855314E2FD /* Pods-NEKit-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A5252116C39892B60241493FDD281A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MMDB-Swift-macOS";
+			target = CC7E9DDE90C17FB5BF4EECE4FBE7BEA9 /* MMDB-Swift-macOS */;
+			targetProxy = 0D44AAD873CD0A48971FC621BF759154 /* PBXContainerItemProxy */;
+		};
+		242D2017B2F17EC6E77375E0BDF4A9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MMDB-Swift-iOS";
+			target = A3C579E722CD43C7931426B15E8427F1 /* MMDB-Swift-iOS */;
+			targetProxy = 0DFADC50E213209B3B996ABC51C85C34 /* PBXContainerItemProxy */;
+		};
+		54BE5BEA7BE94C0CBB2C78BC328AA45E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MMDB-Swift-macOS";
+			target = CC7E9DDE90C17FB5BF4EECE4FBE7BEA9 /* MMDB-Swift-macOS */;
+			targetProxy = F88A327835D80828C5F87C104455C48C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2659E5CE3C1CC5B0CACEB90B616BD2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2AEA9F750722EA1DBD741388D6897DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99753794B72EA14C1319912E7695140 /* Pods-NEKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NEKitDemo/Pods-NEKitDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-NEKitDemo/Pods-NEKitDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43715FF8C0A9FDC2F4BE23846A1A368C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51F72686FAA00A1E1400A0D456BAB2B /* MMDB-Swift-macOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMDB-Swift-macOS/MMDB-Swift-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMDB-Swift-macOS/MMDB-Swift-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/MMDB-Swift-macOS/MMDB-Swift-macOS.modulemap";
+				PRODUCT_MODULE_NAME = MMDB_Swift;
+				PRODUCT_NAME = MMDB_Swift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		454A779C4C9A0206FF0C7F2C6C626E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6C80653BB5AB763B0361F69E4EB419B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C658D39E8E3BF2611E45C18FBCCCA4 /* MMDB-Swift-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMDB-Swift-iOS/MMDB-Swift-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMDB-Swift-iOS/MMDB-Swift-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMDB-Swift-iOS/MMDB-Swift-iOS.modulemap";
+				PRODUCT_MODULE_NAME = MMDB_Swift;
+				PRODUCT_NAME = MMDB_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC05E9CF06AF382424D118BF5B646FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CCB94C689D73EE0D68CC0B258856F25 /* Pods-NEKit-iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NEKit-iOS/Pods-NEKit-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NEKit-iOS/Pods-NEKit-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF31DC91A3CB92C2A8FD490C140AA295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BE7ACE77618C48842143DBB9589636 /* MMDB-Swift-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMDB-Swift-iOS/MMDB-Swift-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMDB-Swift-iOS/MMDB-Swift-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMDB-Swift-iOS/MMDB-Swift-iOS.modulemap";
+				PRODUCT_MODULE_NAME = MMDB_Swift;
+				PRODUCT_NAME = MMDB_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCAA2069D19D857580DD71F0B4BD243F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18410B06F5D6BF1DE1A356D5157CAAB3 /* Pods-NEKit-macOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NEKit-macOS/Pods-NEKit-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-NEKit-macOS/Pods-NEKit-macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D362759F2AB6826D44849C52D511C336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D685284BD6CB19DAF3F2648D9E616574 /* Pods-NEKit-iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NEKit-iOS/Pods-NEKit-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NEKit-iOS/Pods-NEKit-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D59B7D44318DA85BA351FB9F46A76106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551F765700EE1C8929F80AEB4FF97A4C /* MMDB-Swift-macOS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMDB-Swift-macOS/MMDB-Swift-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMDB-Swift-macOS/MMDB-Swift-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/MMDB-Swift-macOS/MMDB-Swift-macOS.modulemap";
+				PRODUCT_MODULE_NAME = MMDB_Swift;
+				PRODUCT_NAME = MMDB_Swift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D69FA30E2DE917A22B063F9D2683CC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AF45C712304D8494C14C59B5AEDFE5 /* Pods-NEKitDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NEKitDemo/Pods-NEKitDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-NEKitDemo/Pods-NEKitDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDA6D5686EBD94FE5E29F84E35539839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52E1C8CF432ACBA070201C2B39397F6 /* Pods-NEKit-macOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NEKit-macOS/Pods-NEKit-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-NEKit-macOS/Pods-NEKit-macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EEC00E36436C11AB469BF828FCC3A2C /* Build configuration list for PBXNativeTarget "MMDB-Swift-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59B7D44318DA85BA351FB9F46A76106 /* Debug */,
+				43715FF8C0A9FDC2F4BE23846A1A368C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3231171E30C5AB6CDFB062A9D76958C4 /* Build configuration list for PBXNativeTarget "Pods-NEKit-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA6D5686EBD94FE5E29F84E35539839 /* Debug */,
+				CCAA2069D19D857580DD71F0B4BD243F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2659E5CE3C1CC5B0CACEB90B616BD2BE /* Debug */,
+				454A779C4C9A0206FF0C7F2C6C626E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6277AF63B85A2A71770E489EF09DF1AF /* Build configuration list for PBXNativeTarget "Pods-NEKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEA9F750722EA1DBD741388D6897DD8 /* Debug */,
+				D69FA30E2DE917A22B063F9D2683CC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4DD973EACE3DAF2C60EB3B0CCD9A10C /* Build configuration list for PBXNativeTarget "MMDB-Swift-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C80653BB5AB763B0361F69E4EB419B5 /* Debug */,
+				BF31DC91A3CB92C2A8FD490C140AA295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA708549A7F0B55287EF04CCD2794217 /* Build configuration list for PBXNativeTarget "Pods-NEKit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC05E9CF06AF382424D118BF5B646FC9 /* Debug */,
+				D362759F2AB6826D44849C52D511C336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
